@@ -1,0 +1,122 @@
+ div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+form {
+    margin-left: 18px;
+    
+    
+}
+
+input[type="text"]{ 
+    /* padding: 20px 10px; */
+     line-height: 140%; 
+  
+    }
+    input[type="email"]{ 
+    line-height: 140%; 
+     margin-bottom: 8px;
+    }
+
+.names  {
+    display: flex;
+    gap: 12px;
+    
+}
+.names > div {
+    margin: 0%;
+}
+
+td {
+    text-align: center;
+}
+
+table {
+    width: 70vw;
+    
+    border-collapse: collapse;
+}
+
+.col {
+    text-align: left;
+    width: 20%;
+}
+
+tr:nth-child(2n)  {
+    background-color: rgb(223, 223, 223);
+    
+}
+
+.col ~ td {
+    width: 16%;
+}
+
+.pp {
+    padding: 10px 0;
+}
+
+.required-field,.al{
+    font-family: 'Poppins', sans-serif;
+}
+.required-field::after {
+    content: "*";
+    color: red;
+    
+  }
+
+  textarea {
+      width: 70vw;
+  }
+
+body {
+    gap: 40px;
+}
+
+
+  *{
+    margin: 0;
+    padding: 0;
+}
+.rate {
+    float: left;
+    height: 46px;
+   
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+    display: block;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: rgb(255, 145, 0) ;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: rgb(255, 145, 0) ;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: rgb(255, 145, 0) ;
+}
+
+button {
+    padding: 5px;
+    margin-top: 5px;
+    
+}

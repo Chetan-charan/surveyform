@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="survey.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form action="">
+    <div>
+    <p class="required-field">Name</p>
+    <section class="names">
+        <div>
+            <input type="text" name="fname" required><br>
+            <label for="fname">First</label>
+        </div>
+        <div>
+            <input type="text" name="lname" required><br>
+            <label for="lname">Last</label>
+        </div>
+    
+    </section>
+    </div>
+    <div>
+    <p class="required-field">Email</p>
+    <input type="email" size="47" required>
+    </div>
+    <div>
+    <p class="required-field">Your Experience </p>
+
+    <section class="rate">
+        <input type="radio" id="star5" name="rate" value="5" />
+        <label for="star5" title="text">5 stars</label>
+        <input type="radio" id="star4" name="rate" value="4" />
+        <label for="star4" title="text">4 stars</label>
+        <input type="radio" id="star3" name="rate" value="3" />
+        <label for="star3" title="text">3 stars</label>
+        <input type="radio" id="star2" name="rate" value="2" />
+        <label for="star2" title="text">2 stars</label>
+        <input type="radio" id="star1" name="rate" value="1" />
+        <label for="star1" title="text">1 star</label>
+    </section>
+      <br><br>
+    </div>
+    <div>
+      <p class="pp">Overall, how would you rate your Experience with us?</p>
+    </div>
+      <div>
+        
+    <p class="required-field">How satisfied are you with </p>
+<table class="tab">
+    <tbody>
+        <tr >
+            <th></th>
+            <th>Very Unsatisfied</th>
+            <th>Unsatisfied</th>
+            <th>Neutral</th>
+            <th>Satisfied</th>
+            <th>Very Satisfied</th>
+            <th></th>
+        </tr>
+        
+            <tr>
+            <td class="col">Purchase</td>
+            <td><input type="radio" name="purchase"></td>
+            <td><input type="radio" name="purchase"></td>
+            <td><input type="radio" name="purchase"></td>
+            <td><input type="radio" name="purchase"></td>
+            <td><input type="radio" name="purchase"></td>
+            </tr>
+            <tr>
+                <td class="col">Service</td>
+                <td><input type="radio" name="service"></td>
+                <td><input type="radio" name="service"></td>
+                <td><input type="radio" name="service"></td>
+                <td><input type="radio" name="service"></td>
+                <td><input type="radio" name="service"></td>
+            </tr>
+            <tr>
+                <td class="col">Company Overall</td>
+                <td><input type="radio" name="company"></td>
+                <td><input type="radio" name="company"></td>
+                <td><input type="radio" name="company"></td>
+                <td><input type="radio" name="company"></td>
+                <td><input type="radio" name="company"></td>
+             </tr>
+        </tbody>
+    
+</table>
+</div>
+<br>
+<div>
+<p class="required-field">How likely are you to </p>
+<table class="tab">
+    <tbody>
+        <tr >
+            <th></th>
+            <th>Very Unlikely</th>
+            <th>Unlikely</th>
+            <th>Neutral</th>
+            <th>Likely</th>
+            <th>Very Likely</th>
+            <th></th>
+        </tr>
+        
+            <tr>
+            <td class="col">Buy from us again <br></td>
+            <td><input type="radio" name="buy"></td>
+            <td><input type="radio" name="buy"></td>
+            <td><input type="radio" name="buy"></td>
+            <td><input type="radio" name="buy"></td>
+            <td><input type="radio" name="buy"></td>
+            </tr>
+            <tr>
+                <td class="col">Recommand our <br> product to others</td>
+                <td><input type="radio" name="Recommand product"></td>
+                <td><input type="radio" name="Recommand product"></td>
+                <td><input type="radio" name="Recommand product"></td>
+                <td><input type="radio" name="Recommand product"></td>
+                <td><input type="radio" name="Recommand product"></td>
+            </tr>
+            <tr>
+                <td class="col">Recommand our <br> company to others</td>
+                <td><input type="radio" name="Recommand company"></td>
+                <td><input type="radio" name="Recommand company"></td>
+                <td><input type="radio" name="Recommand company"></td>
+                <td><input type="radio" name="Recommand company"></td>
+                <td><input type="radio" name="Recommand company"></td>
+             </tr>
+        </tbody>
+    
+</table>
+</div>
+<br>
+<div>
+<p class="al">Additional comments or suggestions</p>
+<textarea  rows="6"></textarea>
+</div>
+</section>
+<button type="submit">Submit</button>
+
+</form>
+</body>
+</html>
